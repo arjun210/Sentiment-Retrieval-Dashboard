@@ -91,3 +91,38 @@ Yes, ensure the dataset includes these columns:
 
 For additional questions, feel free to open an issue in the repository.
 
+## How to Run
+```bash
+
+Step 1: Clone the Repository
+Clone the repository to your local machine:
+git clone https://github.com/arjun210/Sentiment-Retrieval-Dashboard.git
+
+
+Step 2: Navigate to the Project Directory
+Move into the project folder:
+cd Sentiment-Retrieval-Dashboard
+
+
+Step 3: Install Dependencies
+Install the required Python libraries using the requirements.txt file:
+pip install -r requirements.txt
+
+
+Step 4: Run the Application
+Launch the Streamlit dashboard:
+streamlit run sentiment_retrieval_app.py
+
+Step 5: Open the Application in Browser
+Once the app is running, open the provided URL (usually http://localhost:8501) in your web browser.
+
+
+File Structure
+- sentiment_retrieval_app.py: The main Streamlit application file.
+- requirements.txt: The file containing all necessary dependencies.
+- sampled_reviews_20_percent.csv: A sample dataset of hotel reviews.
+
+Additional Notes
+1. Ensure you have Python 3.8 or above installed on your system.
+2. If the dataset is not included in the repository, provide steps to download it or instructions to prepare a similar dataset.
+3. For any questions, issues, or feature requests, feel free to raise an issue on the GitHub repository.
