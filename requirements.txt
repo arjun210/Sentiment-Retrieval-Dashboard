@@ -1,0 +1,10 @@
+streamlit
+pandas
+nltk
+matplotlib
+textblob
+fpdf
+wordcloud
+scikit-learn
+fuzzywuzzy
+python-Levenshtein
